@@ -23,20 +23,11 @@ Available containers:
 All containers are mirrored to the following three registries under `openwrt` account:
 
 * docker.io ([sdk](https://hub.docker.com/r/openwrt/sdk) | [imagebuilder](https://hub.docker.com/r/openwrt/imagebuilder) | [rootfs](https://hub.docker.com/r/openwrt/rootfs))  `*` 
-* ghcr.io ([sdk](https://github.com/openwrt/docker-openwrt/pkgs/container/sdk) | [imagebuilder](https://github.com/openwrt/docker-openwrt/pkgs/container/imagebuilder) | [rootfs](https://github.com/openwrt/docker-openwrt/pkgs/container/rootfs))
 * quay.io ([sdk](https://quay.io/repository/openwrt/sdk) | [imagebuilder](https://quay.io/repository/openwrt/imagebuilder) | [rootfs](https://quay.io/repository/openwrt/rootfs))
 
 > `*` We have switched our account from `openwrtorg` to `openwrt` on docker.io
 
 Find more details on the container types below
-
-## `sdk`
-
-Contains the [OpenWrt
-SDK](https://openwrt.org/docs/guide-developer/toolchain/using_the_sdk) based on
-the same container we use for our [Buildbot](https://buildbot.openwrt.org/)
-infrastructure. This can be useful when building packages on macOS, Windows or
-via CI.
 
 ### SDK Example
 
@@ -161,3 +152,6 @@ docker build \
 [docker-hub-ref]: https://hub.docker.com/u/openwrt
 [license-badge]: https://img.shields.io/github/license/openwrt/docker.svg?style=flat-square
 [license-ref]: LICENSE
+
+
+`If you have some questions in this project, feel free to reach out.`
